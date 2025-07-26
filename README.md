@@ -22,6 +22,7 @@
         // 課題1: サイズ3の配列を準備し、文字列を入れておく 
         const items = ["りんご", "みかん", "バナナ"];
 
+        // 資料のコードを参考にした変数定義 [cite: 352, 353, 354, 355, 356, 357]
         let lastScannedCode = null;
         const breader = new Html5Qrcode("reader");
         const startButton = document.getElementById("startButton");
